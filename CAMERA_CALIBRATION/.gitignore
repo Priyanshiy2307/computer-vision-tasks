@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Editors
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Calibration run outputs (regenerate locally)
+calibration_output/
+
+# Local result copies at repo root (optional; keep out of version control)
+/camera_matrix.yaml
+/calibration_log.yaml
+/calibration_report.json
+/eureka_record.yaml
